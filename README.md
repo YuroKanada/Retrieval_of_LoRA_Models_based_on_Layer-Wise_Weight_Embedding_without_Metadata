@@ -1,4 +1,5 @@
-# Retrieval of LoRA Models based on Layer-Wise Weight Embedding without Metadata
+# Retrieval of LoRA Models based on 
+# Layer-Wise Weight Embedding without Metadata
 
 This repository implements a framework for **learning embedding representations of LoRA models** directly from their **adapter weights**.  
 The goal is to obtain compact and interpretable representations that reflect the characteristics of each LoRA model, enabling **similarity estimation**, **retrieval**, and **model analysis**.
