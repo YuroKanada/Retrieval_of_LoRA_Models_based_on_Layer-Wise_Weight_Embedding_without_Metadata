@@ -3,6 +3,26 @@
 This repository implements a framework for **learning embedding representations of LoRA models** directly from their **adapter weights**.  
 The goal is to obtain compact and interpretable representations that reflect the characteristics of each LoRA model, enabling **similarity estimation**, **retrieval**, and **model analysis**.
 
+## Publication
+
+This work has been accepted to **ICMR 2026**:
+
+Retrieval of LoRA Models based on Layer-Wise Weight Embedding without Metadata, Yuro Kanada, Yuma Oe, Huu-Long Pham, Makoto P. Kato, Hiroaki Ohshima, Sumio Fujita and Yoshiyuki Shoji, Proc. of The 16th ACM International Conference on Multimedia Retrieval (ICMR2026), to appear, 2026.
+
+## Citation
+
+If you use this repository or the encoder in your research, please cite:
+
+```bibtex
+@inproceedings{kanada2026retrieval,
+  title = {Retrieval of LoRA Models based on Layer-Wise Weight Embedding without Metadata},
+  author = {Kanada, Yuro and Oe, Yuma and Pham, Huu-Long and Kato, Makoto P. and Ohshima, Hiroaki and Fujita, Sumio and Shoji, Yoshiyuki},
+  booktitle = {Proceedings of the 16th ACM International Conference on Multimedia Retrieval},
+  year = {2026},
+  note = {To appear}
+}
+```
+
 ## Repository Structure
 
 **triplet_transformer+aggregator**/  
